@@ -24,3 +24,12 @@ ITISProxyLoader
 
 5 - Run the loader:
     java ca.gc.agr.mbb.itisproxyloader.ItisLoader absolute_location_of_ITIS_sqlite_db path_of_cache_dir
+
+
+On my laptop it takes ~55 minutes to create Java BDB index directory of ~835MB
+
+Notes:
+- The Java BDB log files are larger than in the past: 128MB instead of 16MB, so there are less of them
+- The SQL is queried in 4000 record chunks. Much larger than this and some memory leak caused an OOM error. Something wrong with the driver.
+
+
