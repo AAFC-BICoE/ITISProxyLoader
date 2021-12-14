@@ -1,6 +1,9 @@
 ITISProxyLoader
 =========
 
+⛔️ This project is now archived - No Maintenance Intended
+
+
 1 - Download ITIS SQLite3 export from http://www.itis.gov/downloads/index.html
     http://www.itis.gov/downloads/itisSqlite.zip
 
